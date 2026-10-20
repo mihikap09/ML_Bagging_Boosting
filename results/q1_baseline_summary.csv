@@ -1,0 +1,2 @@
+model,max_depth,min_samples_leaf,train_accuracy,validation_accuracy,test_accuracy,num_leaves,mean_samples_per_leaf,single_sample_fraction
+Decision Tree,None,4,0.9833333333333333,0.65,0.6,40,6.0,0.0

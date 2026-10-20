@@ -1,0 +1,12 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.vscode/
+.ipynb_checkpoints/
+*.zip
+data/*
+!data/split_indices.npz
+results/*checkpoint*.npz
+~$*

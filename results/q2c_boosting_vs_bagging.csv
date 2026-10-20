@@ -1,0 +1,7 @@
+method,number_of_learners,tree_depth,min_samples_leaf,train_accuracy,validation_accuracy,clean_test_accuracy,training_time_seconds
+manual_bagging,25,,4,1.0,0.8125,0.7875,35.5233283
+manual_boosting,25,4.0,1,0.5458333333333333,0.3,0.25,7.786263499999997
+manual_bagging,50,,4,1.0,0.8375,0.85,77.52227000000002
+manual_boosting,50,4.0,1,0.8375,0.35,0.3125,15.475905299999999
+manual_bagging,100,,4,1.0,0.8625,0.85,158.79748520000004
+manual_boosting,100,4.0,1,0.8458333333333333,0.4,0.3375,30.785643600000007

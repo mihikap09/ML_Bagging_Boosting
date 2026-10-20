@@ -1,0 +1,2 @@
+selected_depth,selected_rounds,validation_accuracy,train_accuracy,training_time_seconds,selection_rule,random_guess_error_threshold,stop_reason_for_selected_depth
+4,100,0.4,0.8458333333333333,31.82849999999995,highest validation accuracy; then fewer rounds; then smaller depth,0.975,maximum_rounds_reached

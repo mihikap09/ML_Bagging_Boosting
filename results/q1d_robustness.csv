@@ -1,0 +1,5 @@
+model,test_condition,accuracy,mean_prediction_confidence,number_of_estimators,fit_time_seconds
+single_tree,clean,0.5625,0.9791666666666667,1,2.3815977999999998
+single_tree,masked,0.325,1.0,1,2.3815977999999998
+manual_bagging,clean,0.875,0.3765625,200,621.9134932
+manual_bagging,masked,0.8,0.274,200,621.9134932

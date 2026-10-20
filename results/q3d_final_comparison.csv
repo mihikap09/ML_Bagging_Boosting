@@ -1,0 +1,4 @@
+model,clean_test_accuracy,masked_test_accuracy,accuracy_drop_due_to_mask,bias_squared,variance
+single_tree,0.5625,0.325,0.2375,0.3783611111111111,0.6399722222222223
+manual_bagging,0.875,0.8,0.07499999999999996,0.5216716791666667,0.02071805
+manual_boosting,0.3375,0.275,0.0625,0.8789900364005339,0.0175257797058604

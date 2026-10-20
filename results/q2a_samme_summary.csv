@@ -1,0 +1,2 @@
+number_of_samples,number_of_classes,weak_learner_depth,root_feature,root_threshold,weighted_error,random_guess_error,alpha,normalization_constant,weights_before_sum,weights_after_sum
+9,3,1,0,2.5,0.3333333333333333,0.6666666666666667,1.3862943611198908,2.0,1.0,1.0

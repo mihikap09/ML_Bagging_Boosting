@@ -1,0 +1,7 @@
+model,test_condition,accuracy,mean_winning_probability_or_vote,number_of_learners,fit_time_seconds
+single_tree,clean,0.5625,0.9791666666666667,1,1.6637233
+single_tree,masked,0.325,1.0,1,1.6637233
+manual_bagging,clean,0.875,0.3765625,200,287.5725424
+manual_bagging,masked,0.8,0.274,200,287.5725424
+manual_boosting,clean,0.3375,0.12879556727615285,100,57.069248200000004
+manual_boosting,masked,0.275,0.126829073829812,100,57.069248200000004

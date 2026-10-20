@@ -1,0 +1,2 @@
+train_position,original_dataset_index,true_label,largest_weight,round_of_largest_weight,initial_weight,final_weight,number_of_misclassifications,number_of_correct_predictions,misclassification_fraction,number_of_top_10_weight_appearances
+126,215,21,0.08435466529324251,70,0.004166666666666667,0.00011934423887887197,85,15,0.85,28
