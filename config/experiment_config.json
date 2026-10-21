@@ -1,0 +1,40 @@
+{
+  "project": "Manual Bagging and SAMME Boosting on Olivetti Faces",
+  "random_seed": 26004,
+  "dataset": {
+    "name": "Olivetti Faces",
+    "number_of_samples": 400,
+    "number_of_classes": 40,
+    "image_shape": [64, 64],
+    "training_samples_per_class": 6,
+    "validation_samples_per_class": 2,
+    "test_samples_per_class": 2,
+    "saved_split": "data/split_indices.npz"
+  },
+  "question_1": {
+    "tree_depth_candidates": [2, 4, 8, 16, null],
+    "minimum_leaf_size_candidates": [1, 2, 4],
+    "selected_max_depth": null,
+    "selected_min_samples_leaf": 4,
+    "bagging_ensemble_sizes": [1, 5, 10, 25, 50, 100, 200],
+    "selected_bagging_size": 200
+  },
+  "question_2": {
+    "number_of_classes": 40,
+    "random_guess_error_threshold": 0.975,
+    "selected_weak_learner_depth": 4,
+    "selected_number_of_rounds": 100
+  },
+  "question_3": {
+    "number_of_refits": 30,
+    "bagging_trees_per_refit": 100,
+    "accuracy_standard_deviation_ddof": 1
+  },
+  "robustness_test": {
+    "mask_row_start": 24,
+    "mask_row_end_exclusive": 40,
+    "mask_column_start": 24,
+    "mask_column_end_exclusive": 40,
+    "replacement_value": 0.0
+  }
+}

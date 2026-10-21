@@ -116,14 +116,7 @@ The `results/` directory stores numerical outputs and experiment summaries. The 
 
 Only include results that have been generated and verified by running the submitted implementation.
 
-## Submission
-
-The repository should contain:
-
-- Complete source code for Q1, Q2 and Q3.
-- The saved data split and any required reproducibility artifacts.
-- Dependency information.
-- Final result files, diagnostic figures and execution logs.
-- The final CVPR two-column PDF report, within the assignment's page limit.
-
-The first page of the report must include the student's name, complete roll number, repository URL and final Git commit hash.
+The `config/experiment_config.json` file provides a central,
+human-readable record of the settings used in the submitted
+experiments. The current scripts define the same constants internally
+to preserve the completed experimental implementation.
